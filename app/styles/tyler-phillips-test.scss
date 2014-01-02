@@ -1,0 +1,132 @@
+$lb-background: #62C2E7;
+$shadow-blue: #0DA9E5;
+$gray-background: #F4F4F4;
+$donate-green: #83C3AE;
+
+@font-face
+{
+font-family: blackjack;
+src: url(black_jack.ttf);
+}
+@font-face
+{
+font-family: kaushanScript;
+src: url(KaushanScript-Regular.otf);
+}
+@font-face
+{
+font-family: ProximaNova;
+src: url(ProximaNova-Light.otf);
+}
+
+html {
+	background: dimgray;
+}
+
+body {
+	font-family: ProximaNova, sans-serif;
+	background-color: white;
+}
+
+.container {
+	max-width: 1250px;
+	margin: 0 auto;
+}
+
+.content-one {
+	background-color: $lb-background;
+	width: 1250px;
+	height: 650px;
+}
+
+.header {
+	padding-left: 160px;
+	padding-right: 160px;
+}
+
+.perth-p-box {
+	background-color: white;
+	width: 100px;
+	height: 90px;
+	box-shadow: 15px 15px;
+	font-family: kaushanScript;
+	color: $shadow-blue;
+	text-align: center;
+	border-bottom: solid 5px;
+	display: inline-block;
+}
+
+.perth-p {
+	font-size: 40px;
+	padding-top: 10px;
+}
+
+.fa-bars {
+	color: white;
+	position: relative;
+	float: right;
+	font-size: 30px;
+	margin-top: 40px;
+
+}
+
+.meet-perth {
+	float: right;
+	text-align: right;
+	color: white;
+	// padding-left: 160px;
+	padding-right: 160px;
+}
+
+.caption {
+	font-family: blackjack;
+	font-size: 65px;
+	font-weight: lighter;
+	letter-spacing: 1px;
+
+}
+
+.sub-caption {
+	font-family: ProximaNova, sans-serif;
+	font-size: 40px;
+	font-weight: lighter;
+	padding-bottom: 30px;
+	margin-top: -20px;
+}
+
+.free {
+	font-family: sans-serif;
+	font-style: italic;
+}
+
+.download {
+	border: solid 3px white;
+	border-radius: 5px;
+	width: 155px;
+	font-size: 20px;
+	padding: 25px;
+	text-align: center;
+	float: right;
+	letter-spacing: 1px;
+	font-weight: lighter;
+
+}
+
+.fa-cloud-download {
+	font-size: 20px;
+}
+
+.iphone5 {
+	padding-left: 160px;
+	margin-left: 50px;
+	margin-top: -83px;
+
+}
+
+.content-two {
+	background-color: $gray-background;
+	width: 1250px;
+	height: 650px;
+	padding-top: 10px;
+}
+
