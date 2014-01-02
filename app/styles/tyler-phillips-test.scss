@@ -2,6 +2,7 @@ $lb-background: #62C2E7;
 $shadow-blue: #0DA9E5;
 $gray-background: #F4F4F4;
 $donate-green: #83C3AE;
+$about-green: #14AF8F;
 
 @font-face
 {
@@ -70,7 +71,7 @@ body {
 
 }
 
-.meet-perth {
+.content-text-one {
 	float: right;
 	text-align: right;
 	color: white;
@@ -109,7 +110,8 @@ body {
 	float: right;
 	letter-spacing: 1px;
 	font-weight: lighter;
-
+	color: white;
+	text-decoration: none;
 }
 
 .fa-cloud-download {
@@ -119,7 +121,7 @@ body {
 .iphone5 {
 	padding-left: 160px;
 	margin-left: 50px;
-	margin-top: -83px;
+	margin-top: -43px;
 
 }
 
@@ -128,5 +130,46 @@ body {
 	width: 1250px;
 	height: 650px;
 	padding-top: 10px;
+}
+
+.content-two-head {
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+.content-text-two {
+	width: 510px;
+	padding: 160px;
+	font-size: 16px;
+	font-weight: lighter;
+	margin-top: -50px;
+	line-height: 25px;
+}
+
+.para-one {
+	
+}
+
+.para-two {
+	font-style: italic;
+	border-left: solid 6px $shadow-blue;
+	padding-left: 15px;
+}
+
+.say-hello {
+	border: solid 3px $about-green;
+	border-radius: 5px;
+	width: 155px;
+	font-size: 16px;
+	padding: 15px;
+	text-align: center;
+	letter-spacing: 1px;
+	font-weight: lighter;
+	color: $about-green;
+	text-decoration: none;
+}
+
+.fa-envelope {
+	font-size: 16px;
 }
 
