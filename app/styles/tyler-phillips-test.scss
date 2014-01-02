@@ -1,8 +1,12 @@
 $lb-background: #62C2E7;
 $shadow-blue: #0DA9E5;
 $gray-background: #F4F4F4;
-$donate-green: #83C3AE;
+$donate-green: #13C1AC;
 $about-green: #14AF8F;
+$header-gray: #545454;
+$blue-gray: #474E5D;
+$para-gray: #7E7E7E;
+$dribble-pink: #EA4C89;
 
 @font-face
 {
@@ -26,7 +30,6 @@ html {
 
 body {
 	font-family: ProximaNova, sans-serif;
-	background-color: white;
 }
 
 .container {
@@ -112,6 +115,7 @@ body {
 	font-weight: lighter;
 	color: white;
 	text-decoration: none;
+	text-transform: uppercase;
 }
 
 .fa-cloud-download {
@@ -133,6 +137,7 @@ body {
 }
 
 .content-two-head {
+	color: $header-gray;
 	font-size: 30px;
 	font-weight: lighter;
 }
@@ -142,15 +147,19 @@ body {
 	padding: 160px;
 	font-size: 16px;
 	font-weight: lighter;
-	margin-top: -50px;
+	// margin-top: -50px;
 	line-height: 25px;
+	padding-right: 0px;
+	display: inline-block;
 }
 
 .para-one {
+	color: $para-gray;
 	
 }
 
 .para-two {
+	color: $para-gray;
 	font-style: italic;
 	border-left: solid 6px $shadow-blue;
 	padding-left: 15px;
@@ -167,9 +176,116 @@ body {
 	font-weight: lighter;
 	color: $about-green;
 	text-decoration: none;
+	top: 70px;
+	position: relative;
+	text-transform: uppercase;
 }
 
 .fa-envelope {
 	font-size: 16px;
 }
 
+.ipad-flat {
+	float: right;
+	margin-top: 50px;
+}
+
+.content-three {
+	background-color: white;
+	width: 1250px;
+	height: 650px;
+	padding-top: 10px;
+}
+
+.content-text-three {
+	width: 360px;
+	float: right;
+	padding-top: 60px;
+	padding-right: 160px;
+	font-size: 16px;
+	font-weight: lighter;
+	line-height: 25px;
+}
+
+.content-three-head {
+	color: $header-gray;
+	font-size: 30px;
+	font-weight: lighter;
+	padding-bottom: 10px;
+}
+
+.para-one-three {
+	color: $blue-gray;
+	font-style: italic;
+}
+
+.para-two-three {
+	color: $para-gray;
+}
+
+.dribble {
+	border: solid 3px $dribble-pink;
+	border-radius: 5px;
+	width: 155px;
+	font-size: 16px;
+	padding: 15px;
+	text-align: center;
+	letter-spacing: 1px;
+	font-weight: lighter;
+	color: $dribble-pink;
+	text-decoration: none;
+	top: 40px;
+	position: relative;
+	text-transform: uppercase;
+}
+
+.devices {
+	margin-top: -17px;
+}
+
+.content-four {
+	height: 320px;
+	background-color: $donate-green;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.like {
+	color: white;
+	font-size: 30px;
+	font-weight: lighter;
+	padding-top: 70px;
+}
+
+.donate {
+	border: solid 3px white;
+	border-radius: 5px;
+	width: 155px;
+	font-size: 16px;
+	padding: 15px;
+	text-align: center;
+	letter-spacing: 1px;
+	font-weight: lighter;
+	color: white;
+	text-decoration: none;
+	top: 40px;
+	position: relative;
+	text-transform: uppercase;
+}
+
+.beer {
+	font-style: italic;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.content-five {
+	background-color: $gray-background;
+	text-align: center;
+	height: 645px;
+}
+
+.five-icons {
+	padding-top: 240px;
+}
