@@ -1,0 +1,1 @@
+function showHide(a){document.getElementById(a)&&("none"!=document.getElementById(a+"-show").style.display?(document.getElementById(a+"-show").style.display="none",document.getElementById(a).style.display="block"):(document.getElementById(a+"-show").style.display="inline",document.getElementById(a).style.display="none"))}
